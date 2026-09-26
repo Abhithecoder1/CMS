@@ -72,3 +72,93 @@ Stack trace:
 [Sat Sep 26 16:39:51 2026] 127.0.0.1:39208 Accepted
 [Sat Sep 26 16:39:51 2026] 127.0.0.1:39208 [200]: GET /assets/js/app.js
 [Sat Sep 26 16:39:51 2026] 127.0.0.1:39208 Closing
+[Sat Sep 26 17:09:36 2026] 127.0.0.1:39912 Accepted
+[Sat Sep 26 17:09:36 2026] 127.0.0.1:39912 [200]: GET /login.php
+[Sat Sep 26 17:09:36 2026] 127.0.0.1:39912 Closing
+[Sat Sep 26 17:09:36 2026] 127.0.0.1:39924 Accepted
+[Sat Sep 26 17:09:36 2026] 127.0.0.1:39924 [200]: GET /assets/css/style.css
+[Sat Sep 26 17:09:36 2026] 127.0.0.1:39924 Closing
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39928 Accepted
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39928 [302]: POST /login.php
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39928 Closing
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39938 Accepted
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39938 [200]: GET /index.php
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39938 Closing
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39940 Accepted
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39942 Accepted
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39942 [200]: GET /assets/css/style.css
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39942 Closing
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39940 [200]: GET /assets/js/app.js
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39940 Closing
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39946 Accepted
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39946 [200]: GET /api/ajax.php?action=get_chart_data&range=daily
+[Sat Sep 26 17:09:37 2026] 127.0.0.1:39946 Closing
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39952 Accepted
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39952 [200]: GET /index.php
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39952 Closing
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39954 Accepted
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39958 Accepted
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39954 [200]: GET /assets/css/style.css
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39954 Closing
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39958 [200]: GET /assets/js/app.js
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39958 Closing
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39972 Accepted
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39972 [200]: GET /api/ajax.php?action=get_chart_data&range=daily
+[Sat Sep 26 17:09:38 2026] 127.0.0.1:39972 Closing
+[Sat Sep 26 17:10:25 2026] 127.0.0.1:33276 Accepted
+[Sat Sep 26 17:10:25 2026] 127.0.0.1:33276 [200]: GET /login.php
+[Sat Sep 26 17:10:25 2026] 127.0.0.1:33276 Closing
+[Sat Sep 26 17:10:25 2026] 127.0.0.1:33282 Accepted
+[Sat Sep 26 17:10:25 2026] 127.0.0.1:33282 [200]: GET /assets/css/style.css
+[Sat Sep 26 17:10:25 2026] 127.0.0.1:33282 Closing
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33298 Accepted
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33298 [302]: POST /login.php
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33298 Closing
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33300 Accepted
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33300 [200]: GET /index.php
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33300 Closing
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33310 Accepted
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33316 Accepted
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33316 [200]: GET /assets/css/style.css
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33316 Closing
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33310 [200]: GET /assets/js/app.js
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33310 Closing
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33332 Accepted
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33332 [200]: GET /api/ajax.php?action=get_chart_data&range=daily
+[Sat Sep 26 17:10:26 2026] 127.0.0.1:33332 Closing
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33340 Accepted
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33340 [200]: GET /index.php
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33340 Closing
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33346 Accepted
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33346 [200]: GET /assets/css/style.css
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33346 Closing
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33348 Accepted
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33348 [200]: GET /assets/js/app.js
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33348 Closing
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33350 Accepted
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33350 [200]: GET /api/ajax.php?action=get_chart_data&range=daily
+[Sat Sep 26 17:10:27 2026] 127.0.0.1:33350 Closing
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33366 Accepted
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33366 [200]: GET /search-patient.php
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33366 Closing
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33380 Accepted
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33380 [200]: GET /assets/css/style.css
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33380 Closing
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33382 Accepted
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33382 [200]: GET /assets/js/app.js
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33382 Closing
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33388 Accepted
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33388 [200]: GET /api/ajax.php?action=search_patients_autocomplete&q=Abhay
+[Sat Sep 26 17:10:29 2026] 127.0.0.1:33388 Closing
+[Sat Sep 26 17:10:30 2026] 127.0.0.1:33400 Accepted
+[Sat Sep 26 17:10:30 2026] 127.0.0.1:33400 [200]: GET /api/ajax.php?action=get_patient_details&id=1
+[Sat Sep 26 17:10:30 2026] 127.0.0.1:33400 Closing
+[Sat Sep 26 17:10:31 2026] 127.0.0.1:33412 Accepted
+[Sat Sep 26 17:10:31 2026] 127.0.0.1:33412 [200]: GET /prescription.php?treatment_id=1
+[Sat Sep 26 17:10:31 2026] 127.0.0.1:33412 Closing
+[Sat Sep 26 17:10:31 2026] 127.0.0.1:33416 Accepted
+[Sat Sep 26 17:10:31 2026] 127.0.0.1:33416 [200]: GET /assets/css/style.css
+[Sat Sep 26 17:10:31 2026] 127.0.0.1:33416 Closing
+[Sat Sep 26 17:10:31 2026] 127.0.0.1:33428 Accepted
+[Sat Sep 26 17:10:31 2026] 127.0.0.1:33428 [200]: GET /assets/js/app.js
+[Sat Sep 26 17:10:31 2026] 127.0.0.1:33428 Closing
