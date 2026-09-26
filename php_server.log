@@ -1,0 +1,74 @@
+[Sat Sep 26 16:39:00 2026] PHP 8.3.6 Development Server (http://127.0.0.1:8000) started
+[Sat Sep 26 16:39:07 2026] 127.0.0.1:42178 Accepted
+[Sat Sep 26 16:39:07 2026] 127.0.0.1:42178 [200]: GET /login.php
+[Sat Sep 26 16:39:07 2026] 127.0.0.1:42178 Closing
+[Sat Sep 26 16:39:44 2026] 127.0.0.1:46968 Accepted
+[Sat Sep 26 16:39:44 2026] 127.0.0.1:46968 [200]: GET /login.php
+[Sat Sep 26 16:39:44 2026] 127.0.0.1:46968 Closing
+[Sat Sep 26 16:39:45 2026] 127.0.0.1:46974 Accepted
+[Sat Sep 26 16:39:45 2026] 127.0.0.1:46974 [200]: GET /assets/css/style.css
+[Sat Sep 26 16:39:45 2026] 127.0.0.1:46974 Closing
+[Sat Sep 26 16:39:46 2026] 127.0.0.1:46986 Accepted
+[Sat Sep 26 16:39:46 2026] 127.0.0.1:46986 [302]: POST /login.php
+[Sat Sep 26 16:39:46 2026] 127.0.0.1:46986 Closing
+[Sat Sep 26 16:39:46 2026] 127.0.0.1:46996 Accepted
+[Sat Sep 26 16:39:46 2026] PHP Warning:  Object of class PDOStatement could not be converted to int in /app/index.php on line 14
+[Sat Sep 26 16:39:46 2026] PHP Fatal error:  Uncaught Error: Call to a member function execute() on int in /app/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 15
+[Sat Sep 26 16:39:46 2026] 127.0.0.1:46996 [200]: GET /index.php - Uncaught Error: Call to a member function execute() on int in /app/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 15
+[Sat Sep 26 16:39:46 2026] 127.0.0.1:46996 Closing
+[Sat Sep 26 16:39:46 2026] 127.0.0.1:47000 Accepted
+[Sat Sep 26 16:39:46 2026] 127.0.0.1:47000 [200]: GET /assets/css/style.css
+[Sat Sep 26 16:39:46 2026] 127.0.0.1:47000 Closing
+[Sat Sep 26 16:39:47 2026] 127.0.0.1:47002 Accepted
+[Sat Sep 26 16:39:47 2026] PHP Warning:  Object of class PDOStatement could not be converted to int in /app/index.php on line 14
+[Sat Sep 26 16:39:47 2026] PHP Fatal error:  Uncaught Error: Call to a member function execute() on int in /app/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 15
+[Sat Sep 26 16:39:47 2026] 127.0.0.1:47002 [200]: GET /index.php - Uncaught Error: Call to a member function execute() on int in /app/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 15
+[Sat Sep 26 16:39:47 2026] 127.0.0.1:47002 Closing
+[Sat Sep 26 16:39:47 2026] 127.0.0.1:47012 Accepted
+[Sat Sep 26 16:39:47 2026] 127.0.0.1:47012 [200]: GET /assets/css/style.css
+[Sat Sep 26 16:39:47 2026] 127.0.0.1:47012 Closing
+[Sat Sep 26 16:39:48 2026] 127.0.0.1:39140 Accepted
+[Sat Sep 26 16:39:48 2026] 127.0.0.1:39140 [200]: GET /search-patient.php
+[Sat Sep 26 16:39:48 2026] 127.0.0.1:39140 Closing
+[Sat Sep 26 16:39:48 2026] 127.0.0.1:39144 Accepted
+[Sat Sep 26 16:39:48 2026] 127.0.0.1:39156 Accepted
+[Sat Sep 26 16:39:48 2026] 127.0.0.1:39144 [200]: GET /assets/css/style.css
+[Sat Sep 26 16:39:48 2026] 127.0.0.1:39144 Closing
+[Sat Sep 26 16:39:48 2026] 127.0.0.1:39156 [200]: GET /assets/js/app.js
+[Sat Sep 26 16:39:48 2026] 127.0.0.1:39156 Closing
+[Sat Sep 26 16:39:49 2026] 127.0.0.1:39158 Accepted
+[Sat Sep 26 16:39:49 2026] 127.0.0.1:39158 [200]: GET /api/ajax.php?action=search_patients_autocomplete&q=Abhay
+[Sat Sep 26 16:39:49 2026] 127.0.0.1:39158 Closing
+[Sat Sep 26 16:39:49 2026] 127.0.0.1:39162 Accepted
+[Sat Sep 26 16:39:49 2026] 127.0.0.1:39162 [200]: GET /api/ajax.php?action=get_patient_details&id=1
+[Sat Sep 26 16:39:49 2026] 127.0.0.1:39162 Closing
+[Sat Sep 26 16:39:50 2026] 127.0.0.1:39172 Accepted
+[Sat Sep 26 16:39:50 2026] 127.0.0.1:39172 [200]: GET /treatment.php
+[Sat Sep 26 16:39:50 2026] 127.0.0.1:39172 Closing
+[Sat Sep 26 16:39:50 2026] 127.0.0.1:39176 Accepted
+[Sat Sep 26 16:39:50 2026] 127.0.0.1:39176 [200]: GET /assets/css/style.css
+[Sat Sep 26 16:39:50 2026] 127.0.0.1:39176 Closing
+[Sat Sep 26 16:39:50 2026] 127.0.0.1:39186 Accepted
+[Sat Sep 26 16:39:50 2026] 127.0.0.1:39186 [200]: GET /assets/js/app.js
+[Sat Sep 26 16:39:50 2026] 127.0.0.1:39186 Closing
+[Sat Sep 26 16:39:51 2026] 127.0.0.1:39192 Accepted
+[Sat Sep 26 16:39:51 2026] 127.0.0.1:39192 [200]: GET /prescription.php?treatment_id=1
+[Sat Sep 26 16:39:51 2026] 127.0.0.1:39192 Closing
+[Sat Sep 26 16:39:51 2026] 127.0.0.1:39198 Accepted
+[Sat Sep 26 16:39:51 2026] 127.0.0.1:39198 [200]: GET /assets/css/style.css
+[Sat Sep 26 16:39:51 2026] 127.0.0.1:39198 Closing
+[Sat Sep 26 16:39:51 2026] 127.0.0.1:39208 Accepted
+[Sat Sep 26 16:39:51 2026] 127.0.0.1:39208 [200]: GET /assets/js/app.js
+[Sat Sep 26 16:39:51 2026] 127.0.0.1:39208 Closing
