@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('searchInput');
   const filterButtons = document.querySelectorAll('.filter-btn');
   const zipFileInput = document.getElementById('zipFileInput');
+  const dropZoneZipInput = document.getElementById('dropZoneZipInput');
+  const dropZone = document.getElementById('dropZone');
   const folderFileInput = document.getElementById('folderFileInput');
   const currentYearSpan = document.getElementById('currentYear');
 
@@ -281,10 +283,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /**
-   * Handle ZIP File Upload (Extracts and loads contained media files)
+   * Helper: Process ZIP File
    */
-  zipFileInput.addEventListener('change', async (e) => {
-    const file = e.target.files[0];
+  async function processZipFile(file) {
     if (!file) return;
 
     if (typeof JSZip === 'undefined') {
@@ -338,9 +339,54 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('Failed to read ZIP archive file.');
     } finally {
       loadingSpinner.classList.add('d-none');
-      zipFileInput.value = '';
     }
+  }
+
+  /**
+   * Handle ZIP File Inputs & Drag and Drop Events
+   */
+  zipFileInput.addEventListener('change', async (e) => {
+    await processZipFile(e.target.files[0]);
+    zipFileInput.value = '';
   });
+
+  if (dropZoneZipInput) {
+    dropZoneZipInput.addEventListener('change', async (e) => {
+      await processZipFile(e.target.files[0]);
+      dropZoneZipInput.value = '';
+    });
+  }
+
+  if (dropZone) {
+    ['dragenter', 'dragover'].forEach(eventName => {
+      dropZone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        dropZone.classList.add('dragover');
+      }, false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      dropZone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        dropZone.classList.remove('dragover');
+      }, false);
+    });
+
+    dropZone.addEventListener('drop', async (e) => {
+      const dt = e.dataTransfer;
+      const files = dt.files;
+      if (files && files.length > 0) {
+        const zipFile = Array.from(files).find(f => f.name.endsWith('.zip'));
+        if (zipFile) {
+          await processZipFile(zipFile);
+        } else {
+          alert('Please drop a valid .zip file containing media.');
+        }
+      }
+    });
+  }
 
   /**
    * Handle Media Folder Upload

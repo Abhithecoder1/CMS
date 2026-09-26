@@ -16,6 +16,19 @@ body {
   cursor: pointer;
 }
 
+/* Dropzone Styling */
+.border-dashed {
+  border: 2px dashed #0d6efd;
+  border-radius: var(--card-border-radius);
+  transition: var(--hover-transition);
+}
+
+#dropZone.dragover {
+  background-color: rgba(13, 110, 253, 0.08) !important;
+  border-color: #0a58ca;
+  transform: scale(1.01);
+}
+
 /* Card Styling */
 .media-card {
   border-radius: var(--card-border-radius);
